@@ -48,7 +48,7 @@ npm install
 Create a `.env` file in the project root:
 ```env
 # Database Configuration
-DATABASE_URL="postgresql://postgres:postgres@localhost:5432/move37_polling?schema=public"
+DATABASE_URL="postgresql://username:password@localhost:5432/database_name?schema=public"
 
 # Server Configuration
 PORT=4000
